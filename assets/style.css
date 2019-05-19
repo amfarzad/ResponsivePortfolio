@@ -1,0 +1,122 @@
+/* I had most of the trouble here in the CSS which may explain why some of these
+are either unused or double used. I didn't want to spend too much time on it (more than 10 hours)
+so I got the style as close as I could */
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #666666;
+    position: fixed;
+    float: right;
+    padding-top: 100px;
+    padding-left: 150px;
+
+}
+.insideMd{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    background-color: #676b91;
+    padding-top: 100px;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    border: 1px solid #dddddd;
+}
+.insideMd2{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    background-color: #676b91;
+    padding-top: 100px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 0 40px;
+    border: 1px solid #dddddd;
+    padding-left: 30px;
+}
+.container {
+    align-self: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: burlywood;
+}
+h2 {
+    padding-top: 125px;
+}  
+#top {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
+#home {
+    display: inline-block;
+    /* padding-left: 40px;
+    margin-left: 40px; */
+    line-height: 40px;
+    color: #cccccc;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    font-size: 36px;
+}
+.menu {
+    padding-left: 1000px;
+}
+.footer {
+    position: fixed;
+    align-self: baseline;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+}
+#top1 {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+}
+.shark {
+    float: initial;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+.shark2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.shark3 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.shark4 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.shark5 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+/* I tried to use this clear fix I found on W3schools but couldn't figure out how to use it */
+/* .clearfix::after {
+    clear: both;
+} */
+.port {
+    padding-top: 55px;
+}
