@@ -120,3 +120,46 @@ h2 {
 .port {
     padding-top: 55px;
 }
+@media screen and (max-width: 980px) and (min-width: 767px) {
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    body {
+        background-color: purple;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .navbar {
+        position: static;
+    }
+    .insideMd {
+        position: static;
+    }
+    .insideMd2 {
+        position: static;
+}
+@media screen and (max-width: 640px) and (min-width: 0px) {
+    body {
+        background-color: limegreen;
+    }
+    .navbar {
+        position: static;
+    }
+    .insideMd {
+        position: static;
+    }
+    .insideMd2 {
+        position: static;
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    }
+}
